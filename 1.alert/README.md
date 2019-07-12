@@ -12,17 +12,37 @@
   <body>
   
   <ul id="no">
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
-      <li>5</li>
-      <li>6</li>
-      <li>7</li>
+      <li onclick="c1()">1</li>
+      <li onclick="c2()">2</li>
+      <li onclick="c3()">3</li>
+      <li onclick="c4()">4</li>
+      <li onclick="c5()">5</li>
+      <li onclick="c6()">6</li>
+      <li onclick="c7()">7</li>
   </ul>
   
-  <script>
-     // write your code here 
+  <script type="text/javascript">
+        function c1(){
+			alert("1");
+	    }
+        function c2(){
+			alert("2");
+	    }
+		function c3(){
+			alert("3");
+		}
+		function c4(){
+			alert("4");
+		}
+		function c5(){
+			alert("5");
+		}
+		function c6(){
+			alert("6");
+		}
+		function c7(){
+			alert("7");
+		}// write your code here 
      // ......
   </script>
   </body>
